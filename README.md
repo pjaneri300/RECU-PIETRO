@@ -2,7 +2,7 @@
 
 **Descrição Do Projeto:**
 
-Este é um sistema web de gerenciamento de projetos desenvolvido com Flask. Ele permite que os usuários criem, editem e visualizem projetos, além de gerenciar tarefas associadas a cada projeto. As tarefas podem ser adicionadas, editadas, excluídas e categorizadas por status (Pendente, Em Andamento, Concluído). Os dados são armazenados em arquivos CSV (projetos.csv e tarefas.csv), e o frontend utiliza HTML com Tailwind CSS para uma interface moderna, responsiva e amigável.
+Este é um sistema web de gerenciamento de projetos desenvolvido com Flask. Ele permite que os usuários possam criar, editar, visualizar e excluir projetos, além de gerenciar tarefas associadas a cada projeto. As tarefas podem ser adicionadas, editadas, excluídas e categorizadas por status (Pendente, Em Andamento, Concluído). Os dados são armazenados em arquivos CSV (projetos.csv e tarefas.csv), e o frontend utiliza HTML com Tailwind CSS para uma interface moderna, responsiva e amigável.
 
 ## 🛴 Funcionalidades Implementadas
 
@@ -50,7 +50,17 @@ gerenciador-projetos-tarefas/
 │   └── editar_tarefa.html
 │
 └── static/
-    └── img
+    └── img/
+        ├── projeto1.png
+        ├── projeto2.png
+        ├── projeto3.png
+        ├── projeto4.png
+        ├── projeto5.png
+        ├── projeto6.png
+        ├── projeto7.png
+        ├── projeto8.png
+        └── projeto9.png
+
 ```
 
 
@@ -87,7 +97,7 @@ venv\Scripts\activate
 
 Acesse a página inicial (/) para ver todos os projetos em um layout de cartões.
 
-Clique em "Ver Projeto" para visualizar detalhes e tarefas ou em "Editar" para modificar nome e descrição.
+Clique em "Ver Projeto" para visualizar detalhes e tarefas , em "Editar" para modificar nome e descrição, ou em "Excluir" para exclui-lo.
 
 
 ### **Gerenciar Tarefas:**
@@ -121,11 +131,11 @@ A funcionalidade de remover projetos não foi implementada no código fornecido.
 
 ![Projeto3](https://github.com/user-attachments/assets/8c7ea331-ac7c-4334-8bee-3e801dbe043c)
 
-4-**Tela de edição do projeto**
+4-**Interface de edição do projeto**
 
 ![projeto4](https://github.com/user-attachments/assets/300c280e-88b7-4099-a268-3db0e109493b)
 
-5-**Tela da criação de tarefas, já com o projeto editado**
+5-**Interface da criação de tarefas, já com o projeto editado**
 
 ![projeto5](https://github.com/user-attachments/assets/df364b0e-1ec4-4969-b58a-9a5821de9780)
 
@@ -151,6 +161,10 @@ A funcionalidade de remover projetos não foi implementada no código fornecido.
 10-**Interface com a tarefa excluida**
 
 ![projeto5](https://github.com/user-attachments/assets/2af0f53c-2e66-494c-a7d9-e0e3d3488874)
+
+11-**Homepage com o projeto excluido**
+
+![projeto](https://github.com/user-attachments/assets/19b71ef4-b27a-40d0-99ee-0c15d2b8127c)
 
 
 
