@@ -137,30 +137,30 @@ A funcionalidade de remover projetos não foi implementada no código fornecido.
 
 5-**Interface com projeto editado**
 
-![projeto10](https://github.com/user-attachments/assets/7387692e-a66d-49eb-b7d3-d77c92cc3d70)
+![projeto5](https://github.com/user-attachments/assets/7387692e-a66d-49eb-b7d3-d77c92cc3d70)
 
 
 6-**Interface da criação de tarefas**
 
-![projeto5](https://github.com/user-attachments/assets/df364b0e-1ec4-4969-b58a-9a5821de9780)
+![projeto6](https://github.com/user-attachments/assets/df364b0e-1ec4-4969-b58a-9a5821de9780)
 
 7-**Criação de uma nova tarefa**
 
 
-![projeto6](https://github.com/user-attachments/assets/933b17cb-9557-4bb7-ad35-fccf89e3d699)
+![projeto7](https://github.com/user-attachments/assets/933b17cb-9557-4bb7-ad35-fccf89e3d699)
 
 8-**Interface já com a tarefa criada**
 
 
-![projeto7](https://github.com/user-attachments/assets/59e37104-190d-4377-b1b4-160d8016a69a)
+![projeto8](https://github.com/user-attachments/assets/59e37104-190d-4377-b1b4-160d8016a69a)
 
 9-**Interface de edição de tarefas**
 
-![projeto8](https://github.com/user-attachments/assets/9ec03399-e239-4b1a-a7b8-da74dc64bad2)
+![projeto9](https://github.com/user-attachments/assets/9ec03399-e239-4b1a-a7b8-da74dc64bad2)
 
 10-**Interface com a tarefa editada**
 
-![projeto9](https://github.com/user-attachments/assets/a7d73125-6a55-43e3-aa82-0456e282e3e2)
+![projeto10](https://github.com/user-attachments/assets/a7d73125-6a55-43e3-aa82-0456e282e3e2)
 
 
 11-**Interface com a tarefa excluida**
