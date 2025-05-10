@@ -2,7 +2,7 @@
 
 **Descrição Do Projeto:**
 
-Este é um sistema web de gerenciamento de projetos desenvolvido com Flask. Ele permite que os usuários possam criar, editar, visualizar e excluir projetos, além de gerenciar tarefas associadas a cada projeto. As tarefas podem ser adicionadas, editadas, excluídas e categorizadas por status (Pendente, Em Andamento, Concluído). Os dados são armazenados em arquivos CSV (projetos.csv e tarefas.csv), e o frontend utiliza HTML com Tailwind CSS para uma interface moderna, responsiva e amigável.
+Este é um sistema web de gerenciamento de projetos desenvolvido com **Flask**. Ele permite que os usuários possam criar, editar, visualizar e excluir projetos, além de gerenciar tarefas associadas a cada projeto. As tarefas podem ser adicionadas, editadas, excluídas e categorizadas por status (**Pendente, Em Andamento, Concluído**). Os dados são armazenados em **arquivos CSV** (projetos.csv e tarefas.csv), e o frontend utiliza HTML com Tailwind CSS para uma interface moderna, responsiva e amigável.
 
 ## 🛴 Funcionalidades Implementadas
 
@@ -135,34 +135,39 @@ A funcionalidade de remover projetos não foi implementada no código fornecido.
 
 ![projeto4](https://github.com/user-attachments/assets/300c280e-88b7-4099-a268-3db0e109493b)
 
-5-**Interface da criação de tarefas, já com o projeto editado**
+5-**Interface com projeto editado**
+
+![projeto10](https://github.com/user-attachments/assets/7387692e-a66d-49eb-b7d3-d77c92cc3d70)
+
+
+6-**Interface da criação de tarefas**
 
 ![projeto5](https://github.com/user-attachments/assets/df364b0e-1ec4-4969-b58a-9a5821de9780)
 
-6-**Criação de uma nova tarefa**
+7-**Criação de uma nova tarefa**
 
 
 ![projeto6](https://github.com/user-attachments/assets/933b17cb-9557-4bb7-ad35-fccf89e3d699)
 
-7-**Interface já com a tarefa criada**
+8-**Interface já com a tarefa criada**
 
 
 ![projeto7](https://github.com/user-attachments/assets/59e37104-190d-4377-b1b4-160d8016a69a)
 
-8-**Interface de edição de tarefas**
+9-**Interface de edição de tarefas**
 
 ![projeto8](https://github.com/user-attachments/assets/9ec03399-e239-4b1a-a7b8-da74dc64bad2)
 
-9-**Interface com a tarefa editada**
+10-**Interface com a tarefa editada**
 
 ![projeto9](https://github.com/user-attachments/assets/a7d73125-6a55-43e3-aa82-0456e282e3e2)
 
 
-10-**Interface com a tarefa excluida**
+11-**Interface com a tarefa excluida**
 
 ![projeto5](https://github.com/user-attachments/assets/2af0f53c-2e66-494c-a7d9-e0e3d3488874)
 
-11-**Homepage com o projeto excluido**
+12-**Homepage com o projeto excluido**
 
 ![projeto](https://github.com/user-attachments/assets/19b71ef4-b27a-40d0-99ee-0c15d2b8127c)
 
