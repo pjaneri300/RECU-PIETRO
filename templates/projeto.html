@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ project.nome }} - Detalhes{% endblock %}
+
+{% block content %}
+    <h2 class="text-2xl font-bold text-purple-800 mb-6">{{ project.nome }}</h2>
+    <p class="text-gray-600 mb-4">{{ project.descricao }}</p>
+
+    <div class="mt-6">
+        <a href="{{ url_for('nova_tarefa', projeto_id=project.id) }}" 
+           class="bg-purple-600 text-white px-4 py-2 rounded-lg hover:bg-purple-700">Nova Tarefa</a>
+        <a href="{{ url_for('index') }}" 
+           class="bg-gray-600 text-white px-4 py-2 rounded-lg hover:bg-gray-700 ml-4">Voltar</a>
+    </div>
+
+    <h3 class="text-xl font-semibold text-purple-700 mb-4 mt-6">Tarefas</h3>
+    <div class="grid grid-cols-1 gap-4">
+        {% if tasks %}
+            {% for task in tasks %}
+                <div class="bg-white p-4 rounded-xl shadow-md">
+                    <h4 class="text-lg font-medium">{{ task.nome }}</h4>
+                    <p class="text-gray-500 text-sm">Status: {{ task.status }}</p>
+                    <a href="{{ url_for('editar_tarefa', tarefa_id=task.id) }}" 
+                       class="text-green-600 hover:text-green-800 font-medium">Editar Tarefa</a>
+                    <form action="{{ url_for('excluir_tarefa', tarefa_id=task.id) }}" method="POST" 
+                          style="display:inline;" onsubmit="return confirm('Tem certeza?');">
+                        <button type="submit" class="text-red-600 hover:text-red-800 font-medium ml-4">Excluir</button>
+                    </form>
+                </div>
+            {% endfor %}
+        {% else %}
+            <p class="text-gray-500">Nenhuma tarefa cadastrada.</p>
+        {% endif %}
+    </div>
+{% endblock %}
