@@ -59,7 +59,9 @@ gerenciador-projetos-tarefas/
         ├── projeto6.png
         ├── projeto7.png
         ├── projeto8.png
-        └── projeto9.png
+        ├── projeto9.png
+        └── projeto10.png
+
 
 ```
 
