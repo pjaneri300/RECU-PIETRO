@@ -117,7 +117,6 @@ Os arquivos CSV (projetos.csv e tarefas.csv) são criados automaticamente na pri
 
 Certifique-se de que o diretório do projeto tenha permissões de escrita para manipulação dos arquivos CSV.
 
-A funcionalidade de remover projetos não foi implementada no código fornecido.
 
 ## 🚓Imagens do sistema funcionando
 
