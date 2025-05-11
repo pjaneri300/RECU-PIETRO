@@ -115,7 +115,6 @@ A interface utiliza um esquema de cores roxo e branco.
 
 Os arquivos CSV (projetos.csv e tarefas.csv) são criados automaticamente na primeira execução, se não existirem.
 
-Certifique-se de que o diretório do projeto tenha permissões de escrita para manipulação dos arquivos CSV.
 
 
 ## 🚓Imagens do sistema funcionando
